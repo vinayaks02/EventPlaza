@@ -1,0 +1,51 @@
+/* home.css */
+
+.bg-purple {
+    background-color: purple;
+    height: 240px;
+    
+  }
+
+  .ticket-price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0f0404;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card-button {
+    margin-top: 1rem;
+  }
+  .custom-margin {
+    padding-top: 30px; /* You can adjust the value as needed */
+  }
+  
+
+.single-line-text {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 2.5rem; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+
+/* Add styling for card content */
+.card-content {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Center the book button */
+.card-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+  
+@media (max-width: 400px) {
+  .bg-purple {
+    background-size: contain; /* Adjust as needed */
+  }
+}
+

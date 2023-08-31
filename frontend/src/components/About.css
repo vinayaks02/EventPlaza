@@ -1,0 +1,41 @@
+/* About.css */
+
+.about-container {
+    background-color: #50045f4b;
+    color: aliceblue;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 40px; /* Add margin on top */
+    height: 500px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .divider {
+    width: 50px;
+    height: 3px;
+    background-color: #007bff;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  .profile-image {
+    max-width: 150px; /* Reduce the image size */
+  }
+  
+  .about-text {
+    font-size: 25px; /* Increase the font size */
+    color: #eec612;
+    line-height: 1.6;
+    text-align: center;
+    padding-right: 30px;
+  }
+  
+  .larger-font {
+    font-size: 30px; /* Increase font size for the specific paragraph */
+    color: aqua;
+  }
+  
